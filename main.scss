@@ -1,0 +1,30 @@
+@import "./variables";
+@import "./mixin";
+
+div {
+  height: 100vh;
+
+  h1 {
+    color: red;
+    &:hover {
+      color: green;
+
+      transition: 1s;
+    }
+  }
+}
+section {
+  p {
+    font-weight: bolder;
+    background-color: $jayBg;
+  }
+  p:nth:child(2) {
+    color: $jay;
+  }
+}
+.test {
+  h1 {
+    color: map-get($colors, yursa);
+  }
+  @include flexCenter();
+}

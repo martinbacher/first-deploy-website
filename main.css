@@ -1,0 +1,23 @@
+div h1 {
+  color: red;
+}
+div h1:hover {
+  color: green;
+  transition: 1s;
+}
+
+section p {
+  font-weight: bolder;
+  background-color: rgb(202, 191, 191);
+}
+section p:nth:child(2) {
+  color: purple;
+}
+
+.test div,
+h1 {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} /*# sourceMappingURL=main.css.map */
